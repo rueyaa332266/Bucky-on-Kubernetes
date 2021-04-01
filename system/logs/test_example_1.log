@@ -1,0 +1,5 @@
+# Logfile created on 2021-03-31 23:52:17 +0000 by logger.rb/61378
+I, [2021-03-31T23:52:17.590074 #58]  INFO -- : {:operate=>"go", :url=>"https://devexpress.github.io/testcafe/example/"}
+I, [2021-04-01T13:02:19.436630 #37]  INFO -- : {:operate=>"go", :url=>"https://devexpress.github.io/testcafe/example/"}
+I, [2021-04-01T13:03:14.504122 #43]  INFO -- : {:operate=>"go", :url=>"https://devexpress.github.io/testcafe/example/"}
+I, [2021-04-01T13:04:01.301315 #49]  INFO -- : {:operate=>"go", :url=>"https://devexpress.github.io/testcafe/example/"}

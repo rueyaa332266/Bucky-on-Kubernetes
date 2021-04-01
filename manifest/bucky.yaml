@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: bucky
+spec:
+  containers:
+  - name: bucky
+    image: lifullsetg/bucky-core:latest
+    tty: true
+    volumeMounts:
+    - name: bucky-home
+      mountPath: /app
+  volumes:
+  - name: bucky-home
+    hostPath:
+      path: /path/to/bucky-home
+      type: Directory

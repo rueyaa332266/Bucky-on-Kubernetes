@@ -1,0 +1,4 @@
+# Logfile created on 2021-04-01 13:02:21 +0000 by logger.rb/61378
+I, [2021-04-01T13:02:21.295523 #37]  INFO -- : {:verify=>"assert_title", :expect=>"Some title"}
+I, [2021-04-01T13:03:17.091306 #43]  INFO -- : {:verify=>"assert_title", :expect=>"TestCafe Example Page"}
+I, [2021-04-01T13:04:04.095986 #49]  INFO -- : {:verify=>"assert_title", :expect=>"TestCafe Example Page"}

@@ -1,0 +1,18 @@
+desc: Bucky on K8s
+device: pc
+service: testpage
+priority: high
+test_category: e2e
+cases:
+  - case_name: example_1
+    func: input
+    desc: input in sample page
+    procs:
+      - proc: open page
+        exec:
+          operate: go
+          url: https://devexpress.github.io/testcafe/example/
+      - proc: test assert
+        exec:
+          verify: assert_title
+          expect: "TestCafe Example Page"
