@@ -3,6 +3,10 @@ kind: Pod
 metadata:
   name: bucky
 spec:
+  securityContext:
+    runAsUser: 65534
+    runAsGroup: 65534
+    fsGroup: 65534
   volumes:
     - name: test-script
       emptyDir: {}
